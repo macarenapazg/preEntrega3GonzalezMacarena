@@ -1,40 +1,32 @@
+/* traer desde css*/
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 header {
   padding: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
   text-align: center;
 }
-header div .logo img {
-  width: 300px;
-  height: auto;
-}
-header .menu ul lo {
-  text-decoration: none;
-  display: inline;
-  padding: 10px;
-  margin-bottom: 10px;
+header .logo img {
+  width: 350px;
+  margin: 20px;
 }
 
-#principal .titulo {
-  text-align: center;
-  padding: 10px;
+#principal {
   margin: 10px;
 }
-
-#footer {
-  display: flex;
-  background-color: rgb(171, 171, 171);
-  margin: 10px 0px 0px 0px;
+#principal .titulo {
+  padding: 10px;
   text-align: center;
 }
-#footer .insta img {
-  display: flex;
-  justify-content: end;
-  width: 65px;
-  margin-bottom: 150px;
+#principal .fondohome {
+  margin: 10px auto;
+  background-position: center;
+  width: 100%;
   height: auto;
-  
-}
-#footer .foterlog img {
-  width: 200px;
-  height: auto;
+  flex: auto;
 }/*# sourceMappingURL=main.css.map */

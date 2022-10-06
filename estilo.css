@@ -1,8 +1,11 @@
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    
 
 }
 /*GLOBAL*/
@@ -45,14 +48,113 @@
     right: 0%;
 }
    
-
-
-#footer .insta img{
-    width: 50px;
+#footer{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-between;
+    
+}
+#footer .foterlog img{
+    width: 120px;
     height: auto;
 }
-#footer .copy {
+#footer .insta img{
+    width: 40px;
+    height: auto;
+    
+}
+#footer .copy{
+    text-align: end;
+}
+
+/*Home*/
+
+#principal .titulo{
+    padding: 10px;
+    margin: 10px;
     text-align: center;
+}
+#principal .fondohome{
+   margin: 10px auto;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    flex: auto;
+}
+
+
+
+/*About*/
+#about .about__nosotros{
+    color: rgb(55, 55, 55);
+    text-align: left;
+    margin: 25px;
+
+}
+#about .txtabout {
+    border: 2px solid;
+    margin: 30px auto;
+    padding: 35px;
+    
+}
+#about .vid1{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+/*Contacto*/
+.contacto__titulo{
+    color: rgb(55, 55, 55);
+    text-align: left;
+    margin: 25px;
+}
+.direccion{
+    text-align: left;
+    margin: 25px;
+}
+.contacto__txt {
+    color: rgb(118, 118, 105);
+    text-align: left;
+    margin: 35px;
+}
+.map{
+    margin: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+/*producto*/
+
+.prodtitulo {
+    color: rgb(20, 139, 139);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+#galeria .col-lg-4 {
+  text-align: center;
+    margin: 0% !important;
+    padding: 25px;
+}
+#galeria img:hover{
+
+    border: 5px solid white;
+}
+#galeria img{
+    width: 250px;
+    height: 100%;
+}
+
+#header .buscar{
+    position: absolute;
+    padding: 25px;
+    
+    right: 0%;
+}
+   
+
+#foo-container{
+    background-color: aqua;
 }
 
 /*Home*/

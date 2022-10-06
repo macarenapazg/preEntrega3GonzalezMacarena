@@ -1,0 +1,43 @@
+header {
+    padding: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    div .logo img {
+        width: 300px;
+        height: auto;
+        
+    }
+    
+    .menu ul lo {
+        text-decoration: none;
+        display: inline;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+#principal {
+
+    .titulo{
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+#footer {
+    display: flex;
+    background-color: rgb(171, 171, 171);
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    .insta img { 
+        width: 60px;
+        height: auto;
+        align-items: flex-end;
+
+    }
+    .foterlog img {
+        width: 200px;
+        height: auto;
+    }
+}

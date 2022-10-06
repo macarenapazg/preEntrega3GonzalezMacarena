@@ -27,9 +27,12 @@ header .menu ul lo {
   text-align: center;
 }
 #footer .insta img {
-  width: 60px;
+  display: flex;
+  justify-content: end;
+  width: 65px;
+  margin-bottom: 150px;
   height: auto;
-  align-items: flex-end;
+  
 }
 #footer .foterlog img {
   width: 200px;

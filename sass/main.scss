@@ -27,17 +27,15 @@ header {
 
 #footer {
     display: flex;
+    justify-content: space-around;
     background-color: rgb(171, 171, 171);
     margin: 10px 0px 0px 0px;
-    text-align: center;
+    
     .insta img { 
-        width: 60px;
+        width: 100px;
         height: auto;
-        align-items: flex-end;
+        text-align: justify;
 
     }
-    .foterlog img {
-        width: 200px;
-        height: auto;
-    }
+    
 }
